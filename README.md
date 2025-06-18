@@ -69,9 +69,11 @@ Autores e contribuidores
 Gostaríamos de expressar nossa sincera gratidão aos seguintes colaboradores que contribuíram para o desenvolvimento deste projeto:
 
 Pedro M. - Desenvolvedor Front-end 
+- GitHub: https://github.com/Pedro-Miguel20
 - E-mail: pm987162@gmail.com 
 
 Lucas M. - Desenvolvedor Back-end
+- GitHub: https://github.com/LmarDark
 - E-mail: lucasmatheusalero@gmail.com
 
 ## 📄 Licença
