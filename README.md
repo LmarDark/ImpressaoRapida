@@ -70,6 +70,7 @@ Gostaríamos de expressar nossa sincera gratidão aos seguintes colaboradores qu
 
 Pedro M. - Desenvolvedor Front-end 
 - E-mail: pm987162@gmail.com 
+
 Lucas M. - Desenvolvedor Back-end
 - E-mail: lucasmatheusalero@gmail.com
 
