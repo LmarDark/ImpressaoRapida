@@ -43,7 +43,12 @@ npm install
 cp .env.example .env
 ```
 
-5. Configure a conexão com o banco e o Session Driver no arquivo .env:
+5. Crie o arquivo database.sqlite (Desenvolvimento)
+```
+touch database.sqlite
+```
+
+7. Configure a conexão com o banco e o Session Driver no arquivo .env:
 ```
 DB_CONNECTION= SGBD
 DB_HOST= IP
@@ -53,13 +58,13 @@ DB_USERNAME= USERNAME
 DB_PASSWORD= PASSWORD
 ```
 
-6. Gere a Chave de Aplicação:
+7. Gere a Chave de Aplicação:
 ```
 php artisan key:generate
 ```
 
 
-7. Inicie o Servidor de Desenvolvimento:
+8. Inicie o Servidor de Desenvolvimento:
 ```
 composer run dev
 ```
