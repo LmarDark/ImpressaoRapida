@@ -1,7 +1,11 @@
 <?php
+use App\Models\User;
 
-test('example', function () {
-    $response = $this->get('/');
+it('creates a user using the factory', function () {
+    $user = User::factory()->create();
 
-    $response->assertStatus(200);
+    $this->assertDatabaseHas('users', [
+        'id' => $user->id,
+        'email' => $user->email,
+    ]);
 });
