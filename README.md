@@ -45,7 +45,7 @@ cp .env.example .env
 
 5. Crie o arquivo database.sqlite (Desenvolvimento)
 ```
-touch database.sqlite
+touch database/database.sqlite
 ```
 
 7. Configure a conexão com o banco e o Session Driver no arquivo .env:
@@ -58,13 +58,17 @@ DB_USERNAME= USERNAME
 DB_PASSWORD= PASSWORD
 ```
 
-7. Gere a Chave de Aplicação:
+8. Faça a migração do banco
+```
+php artisan migrate
+```
+
+9. Gere a Chave de Aplicação:
 ```
 php artisan key:generate
 ```
 
-
-8. Inicie o Servidor de Desenvolvimento:
+10. Inicie o Servidor de Desenvolvimento:
 ```
 composer run dev
 ```
